@@ -1,0 +1,31 @@
+.Header {
+  border-bottom: 1px dotted #fff;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.logo {
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  flex: 6;
+}
+
+.icons {
+  flex: 1;
+  flex-wrap: nowrap;
+}
+
+.icon_add {
+  font-size: 35px;
+  color: #dc3c3c;
+  padding: 12px;
+}
+
+.icon_todo {
+  font-size: 35px;
+  color: #fff;
+  padding: 12px;
+}

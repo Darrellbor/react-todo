@@ -1,0 +1,51 @@
+.todo_wrapper {
+  min-height: 100px;
+  margin-top: 80px;
+}
+
+.todos {
+  background-color: #282b44;
+  min-height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  max-width: 550px;
+}
+
+.todo_header {
+  background-color: #2f3146 !important;
+  color: #7d7c89 !important;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.todo_body {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.todo {
+  min-height: 40px;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.todo_details {
+  flex: 8;
+  line-height: 1.8rem;
+}
+
+.todo_ctrl {
+  flex: 1;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.todo_ctrl_delete {
+  color: #b32020;
+}
