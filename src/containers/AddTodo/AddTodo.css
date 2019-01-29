@@ -23,4 +23,5 @@
 .todo_body {
   max-height: 450px;
   overflow-y: auto;
+  padding: 20px;
 }

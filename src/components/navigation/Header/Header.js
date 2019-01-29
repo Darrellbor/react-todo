@@ -1,18 +1,22 @@
 import React from "react";
 import styles from "./Header.css";
+import { Link } from "react-router-dom";
 
 const header = props => {
   return (
     <div className={styles.Header}>
       <div className={styles.logo}>Todo List</div>
       <div>
-        <a href="/" className={[styles.icon_todo, styles.icons].join(" ")}>
-          <i className="fas fa-bars" />
-        </a>
+        <Link to="/" className={[styles.icon_todo, styles.icons].join(" ")}>
+          <i className="fas fa-list-alt" />
+        </Link>
 
-        <a href="/" className={[styles.icon_add, styles.icons].join(" ")}>
+        <Link
+          to="/addTodo"
+          className={[styles.icon_add, styles.icons].join(" ")}
+        >
           <i className="fas fa-plus-circle" />
-        </a>
+        </Link>
       </div>
     </div>
   );

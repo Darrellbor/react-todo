@@ -22,3 +22,11 @@
 .todo_ctrl_delete {
   color: #b32020;
 }
+
+.todo_ctrl_success {
+  color: #2fd358;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
