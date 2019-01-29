@@ -10,12 +10,8 @@ class App extends Component {
       <div>
         <Layout>
           <Switch>
-            <Route path="/addTodo" Component={AddTodo}>
-              <AddTodo />
-            </Route>
-            <Route path="/" exact Component={Todos}>
-              <Todos />
-            </Route>
+            <Route path="/addTodo" component={AddTodo} />
+            <Route path="/" exact component={Todos} />
             <Redirect to="/" />
           </Switch>
         </Layout>
