@@ -17,6 +17,9 @@ class Todos extends Component {
     updatedTodo.completed = !updatedTodo.completed;
     todos[index] = updatedTodo;
     this.setState({ todos: todos });
+
+    localStorage.removeItem("todos");
+    localStorage.setItem("todos", JSON.stringify(todos));
   };
 
   removeTodoHandler = id => {
